@@ -1,0 +1,40 @@
+{
+  "name": "butter-provider-torrent9",
+  "version": "0.0.1",
+  "description": "A Butter provider for Torrent9",
+  "main": "index.js",
+  "butter": {
+    "timeout": 20000,
+    "testArgs": "torrent9"
+  },
+  "scripts": {
+    "test": "tape ./node_modules/butter-provider/tests/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jplot/butter-provider-torrent9.git"
+  },
+  "keywords": [
+    "torrent9",
+    "butter",
+    "streaming"
+  ],
+  "author": "Jonathan PHILIPPE",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/jplot/butter-provider-torrent9/issues"
+  },
+  "homepage": "https://github.com/jplot/butter-provider-torrent9#readme",
+  "dependencies": {
+    "butter-provider": "^0.9.7",
+    "butter-sanitize": "^0.1.1",
+    "cheerio": "^0.22.0",
+    "lodash": "^4.17.4",
+    "q": "^1.5.0",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "debug": "^2.6.6",
+    "tape": "^4.6.3"
+  }
+}
